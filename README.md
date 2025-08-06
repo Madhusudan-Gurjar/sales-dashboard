@@ -9,7 +9,7 @@ A modern, responsive Sales Dashboard built with Next.js, TypeScript, Tailwind CS
 - Filter by year and minimum sales threshold
 - Responsive design
 - Dark mode support
-- Export to image (optional)
+- Optional chart export to image
 
 ## Tech Stack
 
@@ -17,7 +17,7 @@ A modern, responsive Sales Dashboard built with Next.js, TypeScript, Tailwind CS
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Chart.js](https://www.chartjs.org/)
-- [html2canvas](https://html2canvas.hertzen.com/) (optional export)
+- [html2canvas](https://html2canvas.hertzen.com/) (optional feature)
 
 ## Getting Started
 
@@ -26,3 +26,12 @@ A modern, responsive Sales Dashboard built with Next.js, TypeScript, Tailwind CS
 ```bash
 git clone https://github.com/your-username/sales-dashboard.git
 cd sales-dashboard
+```
+### 2. Install Dependencies
+```bash
+npm install
+```
+### 3. Run the Development Server
+```bash
+npm run dev
+```
